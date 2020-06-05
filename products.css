@@ -1,0 +1,96 @@
+
+.collapsible-heading button.collapsed + i {
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.filter-btn {
+  color: black;
+}
+.filter-btn:hover {
+  color: black;
+  text-decoration: none;
+}
+.filter-opt:hover {
+  font-weight: 500;
+  color: #616161;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.page-banner {
+  background-image: url(./images/testing3.jpg);
+  height: 300px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.product-card {
+  border-radius: 0;
+  border: none;
+}
+.product-img {
+  height: 320px;
+  /* border: 1px solid purple; */
+}
+.addToCart-btn {
+  width: 85%;
+  position: relative;
+  top: 85% !important;
+  background-color: white;
+  border-radius: 0;
+}
+.addToCart-btn-small {
+  width: 100%;
+  color: white;
+  background-color: #212121 ;
+  border-radius: 0;
+  display: none;
+}
+.addToCart-btn-small:hover {
+  transition: 0.5s;
+  border: 1px solid #212121;
+  background-color: white;
+  color: #212121;
+}
+.overlay {
+  opacity: 0;
+  transition: 0.5s;
+}
+.overlay:hover {
+  opacity: 1;
+  background-color: RGB(0,0,0,0.65);
+}
+.addToCart-btn:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 992px) {
+  .addToCart-btn {
+    display: none;
+  }
+  .addToCart-btn-small {
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page-banner {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .page-banner {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .page-banner {
+    height: 210px;
+  }
+}

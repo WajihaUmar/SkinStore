@@ -1,0 +1,385 @@
+/* HEADER */
+.logo_name:hover {
+  color: black;
+  text-decoration: none;
+}
+.first-nav {
+  height: 75px;
+}
+.inherit {
+  height: inherit;
+}
+.skin-store {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.form-control-search {
+  width: 80%;
+}
+.has-search .form-control {
+  padding-right: 2.6rem;
+  padding-left: 15px !important;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  margin-top: 15px;
+  margin-right: 10% !important;
+  color: #000000;
+}
+input[type="text"] {
+  border-radius: 0px !important;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #bdbdbd;
+}
+.phone-no {
+  border-right: 2px solid black;
+  height: 40px;
+}
+/* .login-icon {
+  padding-top: 20px !important;
+  cursor: pointer;
+} */
+
+.loginDiv {
+  height: 390px;
+  width: 280px;
+  border-radius: 5px;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  background-color: white;
+  z-index: 1000000;
+  display: none;
+  font-family: "Merriweather Sans", sans-serif;
+  /* box-shadow: 5px 10px 18px #888888; */
+}
+.login {
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #eeeeee ;
+}
+.login-detail {
+  width: 85%;
+}
+.dropdown-text-label {
+  font-size: 15px;
+}
+.form-control-login {
+  height: 28px;
+  font-size: 15px;
+}
+.login-btn {
+  width: 100%;
+  height: 30px;
+  border-radius: 0;
+  padding-top: 2px;
+}
+.login-icon-div {
+  text-align: center;
+}
+.login-icon {
+  font-size: 3em !important;
+  cursor: pointer;
+  margin: 5px;
+}
+.login-Ficon {
+  color: #1a237e;
+}
+.login-Gicon {
+  color: #d50000;
+}
+.login-Ficon:hover,
+.login-Gicon:hover {
+  opacity: 0.9;
+}
+.forgot-password {
+  color: #000000;
+  text-decoration: underline;
+}
+.forgot-password:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.register-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.second-nav {
+  background-color: #00838f;
+  color: white !important;
+}
+.navbar-item {
+  font-weight: 600;
+}
+.nav-item:hover {
+  background-color: #047074;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+.shop-cart-icon:hover {
+  background-color: #00838f !important;
+}
+.nav-logo {
+  color: #00838f !important;
+  background-color: white;
+  border-radius: 20px;
+  font-weight: 800;
+  display: none;
+}
+
+.third-nav {
+  height: 35px;
+  background-color: #f5f5f5 ;
+}
+.third-nav-text {
+  text-transform: uppercase;
+  margin: auto;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* FOOTER */
+.newsletter-div {
+  height: 110px;
+  border-top: 3px solid #bdbdbd;
+  background-color: #e0e0e0;
+}
+.newsletter-p1 {
+  font-size: 16px;
+}
+.newsletter-p2 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.newletter-send {
+  border-right: 2px solid #bdbdbd;
+}
+.subscription-input {
+  width: 340px !important;
+}
+.subscribe-btn {
+  border-radius: 0;
+}
+.contact-text {
+  font-size: 17px;
+  font-weight: 600;
+}
+.contact-icon {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.page-footer {
+  background-color: #212121;
+}
+.footer-col-heading {
+  font-size: 28px;
+  font: 2.3vw "Oswald", sans-serif;
+}
+.footer-col-text {
+  font-size: 17px;
+  font-weight: 300;
+  color: #e0e0e0 ;
+}
+.payment {
+  height: 40px; 
+  width: 60px;
+  cursor: pointer;
+}
+
+.line-break {
+  margin-bottom: -40px;
+}
+
+.connect {
+  font-size: 40px !important;
+  width: 320px;
+  font: 2.3vw "Oswald", sans-serif;
+  background-color: #212121;
+}
+.connect-text-mid {
+  font-size: 25px !important;
+}
+.connect-icon-div {
+  background-color: #212121;
+  width: 150px;
+  margin-right: 160px;
+}
+.connect-icon {
+  font-size: 2.5em !important;
+  cursor: pointer;
+}
+.footer-second-last {
+  width: 100%;
+  border: 1px solid white;
+}
+.footer-last {
+  border: 10px solid #212121 ;
+}
+
+@media screen and (max-width: 1105px) {
+  .subscription-input {
+    width: 300px !important;
+  }
+  .contact-text {
+    margin-left: 4px !important;
+    font-size: 15px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+  .login-icon {
+    font-size: 33px !important;
+  }
+  .subscription-input {
+    width: 280px !important;
+  }
+  .contact-text {
+    margin-left: 3px !important;
+    font-size: 15px;
+   }
+}
+
+@media screen and (max-width: 992px) {
+  /* .first-nav {
+    height: 155px;
+  } */
+  .form-control-search {
+    width: 90%;
+  }
+  .has-search .form-control-feedback {
+    margin-right: 5% !important;
+  }
+  .nav-logo {
+    display: block;
+  }
+  .newsletter-div {
+    height: 190px;
+  }
+  .newletter-send {
+    border-right: none;
+  }
+  .get-in-touch {
+    border-top: 1px solid #bdbdbd;
+    justify-content: center;
+  }
+  .contact-text {
+    font-size: 18px;
+  }
+  .footer-col-heading {
+    font-size: 30px;
+  }
+  .footer-col-text {
+    font-size: 15px;
+  }
+  .connect {
+    font-size: 37px !important;
+    width: 300px;
+  }
+  .connect-text-mid {
+    font-size: 22px !important;
+  }
+  .connect-icon-div {
+    margin-right: 80px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .form-control-search {
+    width: 98%;
+  }
+  .login-icon {
+    font-size: 30px !important;
+  }
+  .phone-no {
+    font-size: 12px;
+  }
+  .subscription-input {
+    width: 265px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .form-control-search {
+    width: 94%;
+  }
+  .first-nav-first-col {
+    display: none;
+  }
+  .connect-icon-div {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 662px) {
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .newletter-send {
+    padding-top: 0px !important;
+  }
+  .newsletter-form-group {
+    margin-bottom: 4px !important;
+  }
+  .connect {
+    font-size: 34px !important;
+    width: 260px;
+  }
+  .connect-text-mid {
+    font-size: 20px !important;
+  }
+  .connect-icon-div {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .first-nav {
+    height: 140px;
+  }
+  .phone-login {
+    justify-content: center !important;
+  }
+  .phone-no {
+    font-size: 16px;
+  }
+  .third-nav-text {
+    font-size: 12px;
+  }
+  .loginDiv {
+    top: 130px;
+    right: 7%;
+  }
+  .newsletter-div {
+    height: 230px;
+    text-align: center;
+  }
+  .subscription-input {
+    width: 280px !important;
+  }
+  .footer-col {
+    border-bottom: 1px solid #424242;
+    margin-bottom: 3px;
+  }
+  .contact-div, 
+  .footer-second-last, 
+  .footer-last {
+    display: none;
+  }
+  .footer-col-last {
+    display: block !important;
+  }
+}

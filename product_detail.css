@@ -1,0 +1,55 @@
+
+.wrapper {
+  width: 70%;
+}
+.product-img {
+  width: 100%;
+  height: 515px;
+}
+.prod-desc {
+  border: 7px double #eeeeee;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.add-to-cart {
+  width: 100%;
+  border-radius: 0 ;
+  background-color: black;
+  color: white;
+}
+.buy-now {
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid black;
+  background-color: white;
+}
+.buy-now:hover {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+.description {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 95%;
+  }
+  .product-img {
+    height: 450px;
+  }
+}

@@ -1,0 +1,53 @@
+.wrapper {
+  width: 50%;
+}
+
+.SkinStoreOrder {
+  font-size: 28px !important;
+  font: "Oswald", sans-serif;
+}
+
+.confirm-order {
+  width: 250px;
+  color: white;
+  background-color: #212121 ;
+  border-radius: 0;
+}
+.confirm-order:hover {
+  transition: 0.5s;
+  border: 1px solid #212121;
+  background-color: white;
+  color: #212121;
+}
+.go-back-btn {
+  border: 1px solid #00838f;
+  background-color: white;
+  color: #00838f;
+  border-radius: 0;
+}
+.go-back-btn:hover {
+  transition: 0.5s;
+  color: white;
+  background-color: #00838f ;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 476px) {
+  .wrapper {
+    width: 95%;
+  }
+}
